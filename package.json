@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "gatsby": "^5.14.3",
+    "gatsby-source-wordpress": "^7.15.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "soames-gatsby-theme": "file:../soames-gatsby-theme"
+  },
+  "name": "orbisoftware-soames",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
