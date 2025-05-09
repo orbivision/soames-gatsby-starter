@@ -5,7 +5,7 @@ console.log("GraphQL URL from .env:", process.env.GATSBY_WORDPRESS_URL);
 /** @type {import('gatsby').GatsbyConfig} */
 module.exports = {
   siteMetadata: {
-    title: 'Soames Gatsby Theme',
+    title: 'Soames Gatsby Starter',
   },
   plugins: [
     {
