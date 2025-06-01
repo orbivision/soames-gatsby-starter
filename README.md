@@ -12,6 +12,7 @@ A minimal starter for building a personal website using the [Soames Gatsby Theme
 
 ```bash
 git clone https://github.com/orbivision/gatsby-starter-soames.git my-soames-site
+cd my-soames-site
 npm install
 # Edit your WordPress GraphQL URL in the .env.development file
 npm gatsby develop
