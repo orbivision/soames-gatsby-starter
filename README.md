@@ -8,10 +8,10 @@ A minimal starter for building a personal website using the [Soames Gatsby Theme
 • Built-in layout and styling from Soames Theme
 • Shadow components for customization
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
-git clone https://github.com/yourusername/gatsby-starter-soames.git
+git clone https://github.com/orbivision/gatsby-starter-soames.git
 cd gatsby-starter-soames
 npm install
 cp .env.example .env.development
