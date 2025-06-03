@@ -1,4 +1,11 @@
-# Soames Gatsby Starter
+<p align="center">
+  <a href="https://www.gatsbyjs.com">
+    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  </a>
+</p>
+<h1 align="center">
+  Soames Gatsby Starter
+</h1>
 
 A minimal starter for building a personal website using the [Soames Gatsby Theme](https://github.com/orbivision/soames-gatsby-theme) and WordPress as a headless CMS.
 
