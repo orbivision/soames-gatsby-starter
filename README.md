@@ -1,4 +1,4 @@
-# Gatsby Starter Soames
+# Soames Gatsby Starter
 
 A minimal starter for building a personal website using the [Soames Gatsby Theme](https://github.com/orbivision/soames-gatsby-theme) and WordPress as a headless CMS.
 
