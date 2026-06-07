@@ -18,11 +18,12 @@ A minimal starter for building a personal website using the [Soames Gatsby Theme
 ## Quick Start
 
 ```bash
-git clone https://github.com/orbivision/gatsby-starter-soames.git my-soames-site
+git clone https://github.com/orbivision/soames-gatsby-starter.git my-soames-site
 cd my-soames-site
+cp .env.example .env.development
+# Edit .env.development: set GATSBY_WORDPRESS_URL to your WordPress GraphQL endpoint
 npm install
-# Edit your WordPress GraphQL URL in the .env.development file
-npm gatsby develop
+npm run develop
 ```
 
 ## Using This Starter for Your Own Site
@@ -32,11 +33,18 @@ To use this starter as a base for your own Gatsby website:
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/orbivision/gatsby-starter-soames.git new-soames-site
+git clone https://github.com/orbivision/soames-gatsby-starter.git new-soames-site
 cd new-soames-site
 ```
 
-2. Edit your WordPress GraphQL URL in the .env.development file.
+2. Copy the example env file and set your WordPress GraphQL URL:
+
+```bash
+cp .env.example .env.development
+# Edit .env.development and set GATSBY_WORDPRESS_URL=https://your-site.example.com/graphql
+```
+
+The WordPress site must have [WPGraphQL](https://www.wpgraphql.com/) and the [Soames WordPress Plugin](https://github.com/orbivision/soames-wordpress-plugin) installed and activated.
 
 3. Remove the existing git history to start fresh:
 
@@ -44,13 +52,20 @@ cd new-soames-site
 rm -rf .git
 ```
 
-3. Create a new repository on GitHub (e.g., new-soames-site) at https://github.com/new.
-Leave “Initialize this repository with a README” unchecked.
-
-4. Link your local project to the new repository:
+4. Install dependencies and start the dev server:
 
 ```bash
-git init           # Initialize a new Git repository
+npm install
+npm run develop
+```
+
+5. Create a new repository on GitHub (e.g., new-soames-site) at https://github.com/new.
+Leave "Initialize this repository with a README" unchecked.
+
+6. Link your local project to the new repository:
+
+```bash
+git init
 git remote add origin https://github.com/your-username/new-soames-site.git
 git add .
 git commit -m "Initial commit from Soames starter"
